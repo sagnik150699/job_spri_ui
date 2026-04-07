@@ -1,22 +1,32 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sagnik150699/Sagnik-Bhattacharya/master/public/sagnik-bhattacharya.png" alt="Sagnik Bhattacharya" width="180">
-</p>
-**Sagnik Bhattacharya**
-Website: [sagnikbhattacharya.com](https://sagnikbhattacharya.com)
+# Job Spri Ui
 
-# job_spri_ui
+A Flutter learning project kept as part of my course and practice material.
 
-A new Flutter application.
+## Learning Context
 
-## Getting Started
+This repository is one of my Flutter learning projects and course examples. I use it as a reference implementation for students and as a compact practice codebase while teaching Flutter concepts through the material published at [sagnikbhattacharya.com/courses](https://sagnikbhattacharya.com/courses).
 
-This project is a starting point for a Flutter application.
+## What This Project Is For
 
-A few resources to get you started if this is your first Flutter project:
+- following along with a lesson or module from the course
+- revisiting a focused Flutter concept in a smaller repository
+- testing release builds and platform setup without rewriting the teaching code
+- keeping a practical sample app available for future revision
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Supported Platforms
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`android`, `ios`
+
+## Build Commands
+
+```bash
+flutter pub get
+flutter build apk --release
+```
+
+## Notes For Students
+
+- This repository is primarily for learning, experimentation, and revision.
+- I generally avoid changing lib/ unless the lesson itself requires it, so compatibility updates are usually handled in tooling, dependency, or platform files.
+- Some projects may intentionally stay close to the version used during teaching so the code remains easier to compare with the course walkthrough.
+- Use the project together with the matching lesson for the best context instead of treating it as a finished production product.
